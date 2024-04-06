@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 
+        1.Vertical Scroll 
+        2.Horizontal Scroll
+     -->
+
+     <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #box{
+        background: pink;
+        width: 300px;
+        height: 300px;
+        border: 1px solid pink;
+        overflow: auto;
+      }     
+     </style>
+</head>
+<body>
+    <h2>Javascript scrollTop and ScrollLeft</h2>
+    <div id="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam doloremque error iure alias repellat deserunt autem, perferendis quae id magnam optio aperiam dolore in eum ratione ipsam quaerat facilis obcaecati ea rerum voluptatem soluta sit! Quos illo, unde ea natus fugiat laudantium incidunt expedita mollitia atque iure iste quam ut laboriosam eaque? Libero, nemo numquam maxime animi, maiores nesciunt ipsa ipsam tempora repudiandae quis, cum facere deserunt quae debitis saepe totam similique perspiciatis dicta! Debitis vero quasi veniam hic repudiandae inventore quaerat sint dolor. Minus minima voluptatum porro, atque magnam ullam illo aliquid vel quasi tenetur. Temporibus libero dolorem nesciunt. Maiores delectus libero, doloribus eligendi, itaque rem, quo nam voluptatum reprehenderit ipsa dicta cum consectetur sint. Ut consectetur reiciendis ea dolores quidem quibusdam unde, velit earum sequi, architecto maxime nulla numquam molestiae! Rerum quo expedita earum quasi necessitatibus, laborum corrupti ducimus laboriosam aut aperiam modi itaque aliquid eos! Mollitia reprehenderit quaerat numquam nam, ipsam, voluptatum sequi eos dolor corrupti dignissimos amet nihil pariatur commodi similique labore. Blanditiis et eius vitae obcaecati quam excepturi harum perspiciatis nihil corporis. Sunt officia inventore temporibus ea laborum dolorem eveniet molestias laboriosam vero consectetur cupiditate modi magni ad tempore totam quo alias, beatae et explicabo laudantium at fuga reiciendis! Laudantium atque nisi officia explicabo, optio asperiores quibusdam inventore rem. Magni, quaerat rerum dolore ut esse blanditiis aspernatur cupiditate quibusdam neque omnis at, consequatur maxime fugiat aut a officiis maiores facilis consequuntur rem. Maxime quidem ab unde a consectetur alias ex temporibus molestias natus, earum, iusto consequuntur! Nihil iste ullam eius ab consequuntur nam dignissimos dolores eos deleniti nobis aliquam quae vel omnis facilis blanditiis optio cumque tenetur, repellendus sint saepe? Perspiciatis, possimus debitis fugit modi, eaque tempora reiciendis quam culpa aspernatur saepe quo eius, veniam natus velit minus fugiat corrupti et illo? Labore iure quas provident asperiores reprehenderit velit porro a fugit cupiditate vero consectetur nobis, at, earum odio vitae ex ratione. Totam eum facere modi vero corporis eos perspiciatis architecto debitis rerum, voluptate voluptas neque alias blanditiis! Optio at, ratione cupiditate quos impedit inventore minima ipsam repellendus, rem nesciunt atque unde, officiis perspiciatis fugit doloribus! Optio aliquam asperiores molestias architecto delectus. Incidunt, blanditiis at! Quo facilis adipisci possimus corrupti. Dolor minus recusandae necessitatibus quos impedit mollitia ratione quo sapiente, ab aliquam corrupti voluptate, enim, provident neque. Eum, officia quia porro eius, facere ab commodi unde cumque explicabo earum totam expedita quidem. Voluptatum sint rerum cupiditate, nostrum ex quisquam saepe temporibus! Dolores tempora, modi eveniet exercitationem perferendis facere laboriosam ducimus maiores eius accusantium placeat impedit tenetur consequuntur laborum numquam ullam provident recusandae corrupti id necessitatibus voluptatem temporibus! Veritatis deleniti, voluptates cupiditate eum reprehenderit ratione consectetur dignissimos placeat error, sequi aliquid iure vero magni nisi aut atque animi, perferendis fuga eos odio minus tenetur. Molestiae neque unde, obcaecati labore vitae ad quaerat ducimus? Nesciunt veniam autem, sequi porro voluptatem minus at nostrum quidem assumenda fugit odio! Ad officiis culpa itaque obcaecati dolorum vero dicta eligendi dolores sed, eos in laudantium aliquid necessitatibus voluptatum eum, et non.</div>
+   
+    <script>
+    //     const target=document.querySelector("#box");
+    //     target.addEventListener('scroll',()={
+    //    console.log("scrollTop: "+target.scrollTop);
+    //     });
+    const target=document.querySelector("#box");
+    console.clear();
+    target.addEventListener('scroll' ,(event)=>{console.log("scrollTop :" +target.scrollTop);});
+   
+    </script>
+</body>
+</html>

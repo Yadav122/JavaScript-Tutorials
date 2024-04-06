@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // arrays
+        var a=["Ram" , "Kumar" ,18,"India"];
+        // Objects
+        var a={
+        firstName:"Ram",
+        lastName:"Kumar",
+        age:18,
+        country:"India",
+
+        living:{
+            city:"Chandigarh"
+            ,country:"India"
+        },
+        favMovies:['dhoom' , 'sholay' ,'hum'],
+        salary:function(){
+        return 25000;
+        },
+        fullname:function(){
+            return this.firstName+" "+this.lastName;
+        }
+        };
+        // document.write(a)
+        console.log(a);
+        console.log(a.firstName);
+        document.write(a.favMovies[2]);
+        console.log(a.salary());
+        console.log(a.fullname())
+        console.log(a.living.country)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
